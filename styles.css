@@ -463,3 +463,11 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .rural-sources ol{margin:0;padding-left:20px;font-size:.84rem;line-height:1.6;color:#5d6b75}.rural-sources li{margin-bottom:6px}
 @media(max-width:750px){.rural-stats{grid-template-columns:1fr}.rural-stats>div{border-right:0;border-bottom:1px solid var(--line);padding:18px 4px}.rural-stats>div:last-child{border-bottom:0}}
 .rural-feature .hwanggok-copy p+p{margin-top:1em}
+/* Home strip with separate Play and project links. */
+.game-strip--links:hover{transform:none;box-shadow:none}
+.game-strip-title{color:#fff}.game-strip-title:hover{color:#fff;text-decoration:underline}
+.game-strip-links{display:flex;flex-direction:column;align-items:center;gap:10px}
+.game-strip-links .game-strip-play{text-decoration:none;transition:transform .15s ease}.game-strip-links .game-strip-play:hover{text-decoration:none;transform:translateY(-1px)}
+.game-strip-more{font-size:.84rem;font-weight:700;color:#b9b7d4;white-space:nowrap}.game-strip-more:hover{color:#fff}
+.rural-hero{margin-bottom:44px}.rural-hero img{aspect-ratio:2.4;object-fit:cover;object-position:center 42%;image-rendering:pixelated}
+@media(max-width:700px){.game-strip-links{flex-direction:row;align-items:center;gap:16px;justify-self:start}}
