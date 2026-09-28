@@ -434,3 +434,4 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .game-strip-copy-right{font-size:.74rem;color:#7f7da0;margin-top:2px}
 .game-strip-play{padding:9px 16px;border-radius:4px;background:#ff6ad5;color:#1a0f24;font-weight:800;font-size:.92rem;white-space:nowrap}
 @media(max-width:700px){.game-strip{grid-template-columns:1fr;gap:14px;padding:14px 14px 18px}.game-strip img{width:100%}.game-strip-play{justify-self:start}}
+.game-strip--inline{margin-top:44px}
