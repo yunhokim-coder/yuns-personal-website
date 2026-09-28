@@ -444,3 +444,9 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 @keyframes cue-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
 @media(prefers-reduced-motion:reduce){.scroll-cue svg{animation:none}}
 @media(max-width:700px){.scroll-cue{font-size:.68rem;text-align:center;bottom:12px}}
+/* Beyond: in-page player for the band's first single. */
+.music-feature-theme{color:#52606a}
+.music-feature-player{margin:18px 0 16px;padding:14px 16px 10px;background:var(--card);border:1px solid var(--line);border-radius:6px}
+.music-feature-player>span{display:block;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--accent);margin-bottom:8px}
+.music-feature-player audio{display:block;width:100%;height:40px}
+.music-feature-player small{display:block;margin-top:6px;font-size:.74rem;color:var(--muted)}
