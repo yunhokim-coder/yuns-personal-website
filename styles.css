@@ -435,3 +435,12 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .game-strip-play{padding:9px 16px;border-radius:4px;background:#ff6ad5;color:#1a0f24;font-weight:800;font-size:.92rem;white-space:nowrap}
 @media(max-width:700px){.game-strip{grid-template-columns:1fr;gap:14px;padding:14px 14px 18px}.game-strip img{width:100%}.game-strip-play{justify-self:start}}
 .game-strip--inline{margin-top:44px}
+/* Home: faint cue that more work sits below the fold. */
+.scroll-cue{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:15;display:flex;flex-direction:column;align-items:center;gap:2px;width:max-content;max-width:calc(100% - 32px);padding:7px 16px 4px;border-radius:999px;background:rgba(247,245,239,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:0 2px 12px rgba(31,41,51,.08);color:rgba(31,41,51,.5);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;transition:opacity .35s ease}
+.scroll-cue:hover{color:rgba(31,41,51,.8);text-decoration:none}
+.scroll-cue svg{animation:cue-bob 1.8s ease-in-out infinite}
+.scroll-cue.is-hidden{opacity:0;pointer-events:none}
+#selected-work{scroll-margin-top:72px}
+@keyframes cue-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+@media(prefers-reduced-motion:reduce){.scroll-cue svg{animation:none}}
+@media(max-width:700px){.scroll-cue{font-size:.68rem;text-align:center;bottom:12px}}
