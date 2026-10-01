@@ -542,3 +542,18 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 @keyframes hg-blink{0%{opacity:1;box-shadow:0 6px 0 #a3368a,0 0 0 0 rgba(255,106,213,.0)}50%{opacity:.35;box-shadow:0 6px 0 #a3368a,0 0 18px 4px rgba(255,106,213,.55)}}
 .home-game-poster:hover .home-game-play,.home-game-poster:focus-visible .home-game-play{animation:none;opacity:1}
 @media(prefers-reduced-motion:reduce){.home-game-hero,.home-game-hero>span,.home-game-hero img,.home-game-play{animation:none}}
+
+/* Home game: playable cue, facts, research next step, and gameplay screens. */
+.home-game-badges{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.home-game-playable{display:inline-flex;align-items:center;padding:4px 11px;border-radius:999px;background:#ffe3f6;color:#9a2a7c;font:800 .72rem/1.4 var(--sans);letter-spacing:.06em;text-transform:uppercase}
+.home-game-head p+p{margin-top:8px}
+.home-game-research{font-size:.92rem!important;color:#52616a!important;padding-left:12px;border-left:3px solid var(--accent2)}
+.home-game-facts{list-style:none;display:flex;flex-wrap:wrap;gap:6px 8px;margin:14px 0 0;padding:0}
+.home-game-facts li{padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);font:.8rem/1.4 var(--sans);color:#34434c}
+.home-game-facts strong{color:var(--accent)}
+.home-game-ribbon{position:absolute;top:12px;left:12px;padding:5px 10px;border-radius:4px;background:#4ef0a0;color:#0f2a1c;font:800 .7rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;box-shadow:0 3px 0 #1f8a57}
+.home-game-shots{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.home-game-shots li{display:flex;flex-direction:column;gap:8px}
+.home-game-shots img{display:block;width:100%;height:170px;object-fit:cover;object-position:top;border-radius:6px;border:1px solid #2a2850;background:#12132a}
+.home-game-shots span{font:.82rem/1.45 var(--sans);color:#52616a}.home-game-shots b{display:block;color:#17212a;font-size:.86rem}
+@media(max-width:700px){.home-game-shots{grid-template-columns:1fr}.home-game-shots img{height:auto;max-height:220px}.home-game-ribbon{top:8px;left:8px;font-size:.62rem;padding:4px 7px}}
