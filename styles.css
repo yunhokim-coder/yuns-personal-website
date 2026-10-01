@@ -597,3 +597,23 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .hs-stats b{display:block;font:500 1.05rem/1.2 var(--serif);color:var(--ink)}
 @media(max-width:700px){.hs-row{grid-template-columns:108px 1fr}.hs-factors{padding-left:0}.hs-u{height:13px}}
 .hs-stats small{grid-column:1/-1;font:800 .62rem/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:#7a868d;margin-bottom:-6px}
+/* Thesis study-design thumbnail (Publications) */
+.overview-media--design{justify-content:space-between;gap:6px}
+.sd-row{display:grid;grid-template-columns:12px 104px 30px 1fr 30px 34px;align-items:center;gap:6px}
+.sd-row--head{margin-bottom:-3px}
+.sd-t{font:700 .58rem/1 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:#7a868d;text-align:center;white-space:nowrap}
+.sd-r{font:800 .78rem var(--serif);color:var(--accent);text-align:center}
+.sd-label b{display:block;font:700 .78rem/1.15 var(--sans);color:var(--ink)}.sd-label small{display:block;font:.66rem/1.25 var(--sans);color:#6a7880;white-space:nowrap}
+.sd-o{display:block;justify-self:center;width:11px;height:11px;border-radius:50%;border:2px solid var(--accent);background:var(--card);box-sizing:border-box}
+.sd-row--ctrl .sd-o{border-color:#77838a}
+.sd-sessions{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.sd-s{display:grid;place-items:center;height:20px;border-radius:3px;background:#e6eef1;font:600 .62rem var(--sans);font-style:normal;color:#4a6573}
+.sd-row--comp .sd-s{background:#ece9e2;color:#5f6a70}
+.sd-s--exp,.sd-row--exp .sd-s--exp{background:var(--accent);color:#fff}
+.sd-s--comp,.sd-row--comp .sd-s--comp{background:#77838a;color:#fff}
+.sd-none{display:flex;align-items:center;justify-content:center;height:20px;background:repeating-linear-gradient(90deg,#c9cfd2 0 5px,transparent 5px 10px) center/100% 2px no-repeat;font:.64rem var(--sans);color:#5b6a73}
+.sd-none{text-indent:0}.sd-none::before{content:none}
+.sd-none{--bg:var(--card)}
+.sd-none>*{background:var(--card)}
+.sd-note{font:.66rem/1.4 var(--sans);color:#5b6a73;padding-top:6px;border-top:1px solid var(--line)}.sd-note b{color:var(--accent)}
+@media(max-width:700px){.sd-row{grid-template-columns:10px 88px 20px 1fr 26px 30px;gap:4px}.sd-label b{font-size:.72rem}.sd-s{height:18px;font-size:.58rem}.sd-t{font-size:.52rem;letter-spacing:.02em}}
