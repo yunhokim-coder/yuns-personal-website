@@ -617,3 +617,17 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .sd-none>*{background:var(--card)}
 .sd-note{font:.66rem/1.4 var(--sans);color:#5b6a73;padding-top:6px;border-top:1px solid var(--line)}.sd-note b{color:var(--accent)}
 @media(max-width:700px){.sd-row{grid-template-columns:10px 88px 20px 1fr 26px 30px;gap:4px}.sd-label b{font-size:.72rem}.sd-s{height:18px;font-size:.58rem}.sd-t{font-size:.52rem;letter-spacing:.02em}}
+/* Self-direction dumbbell and Cool Summer Night bars (Projects overview) */
+.db-label{font:600 11.5px var(--sans);fill:#33434c}
+.db-link{stroke:#b9c6cc;stroke-width:3;stroke-linecap:round}
+.db-pre{fill:var(--card);stroke:#77838a;stroke-width:2}
+.db-post{fill:var(--accent);stroke:var(--card);stroke-width:2}
+.db-key{display:inline-block;width:10px;height:10px;border-radius:50%;border:2px solid #77838a;box-sizing:border-box}.db-key--post{background:var(--accent);border-color:var(--accent)}
+.overview-media--csndata .pg-row{grid-template-columns:104px 1fr 36px}
+.overview-media--csndata .pg-main{gap:9px}
+.pg-bar--csn{background:var(--accent)}
+.pg-tile .csn-strong{font-size:1.75rem;color:var(--accent);white-space:nowrap}
+@media(max-width:700px){.overview-media--csndata .pg-row{grid-template-columns:100px 1fr 34px}}
+.db-label{font-size:14px}.db-axis{font-size:13px}.db-val{font-size:14px}
+.overview-media--csndata .pg-row{grid-template-columns:118px 1fr 36px}
+@media(max-width:700px){.overview-media--csndata .pg-row{grid-template-columns:112px 1fr 34px}}
