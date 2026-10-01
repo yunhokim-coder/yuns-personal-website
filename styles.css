@@ -585,3 +585,15 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .pg-tile span{font:.72rem/1.35 var(--sans);color:#4f5e66;margin-top:6px}
 @media(max-width:700px){.overview-media--data{height:auto;min-height:200px}.pg-row{grid-template-columns:128px 1fr 38px}.pg-tile{flex-basis:96px;padding:8px 0 8px 12px}.pg-tile strong{font-size:2.1rem}}
 @media(max-width:420px){.overview-media--poomdata{flex-direction:column}.pg-tile{flex-basis:auto;border-left:0;border-top:1px solid var(--line);padding:10px 0 0;flex-direction:row;align-items:center;gap:10px}.pg-tile span{margin:0}}
+/* Happiness Habit Scale overview thumbnail: one block per item */
+.overview-media--scale{justify-content:space-between;gap:8px}
+.hs-row{display:grid;grid-template-columns:118px 1fr;align-items:center;gap:10px}
+.hs-label{font:.76rem/1.2 var(--sans);color:#4f5e66}.hs-label b{font:500 1.35rem/1 var(--serif);color:var(--ink);margin-right:4px}
+.hs-units{display:grid;grid-template-columns:repeat(26,1fr);gap:2px}
+.hs-u{display:block;height:16px;border-radius:2px;background:#d9d4c9}.hs-u--kept{background:var(--accent)}
+.hs-factors{display:flex;flex-wrap:wrap;gap:5px;padding-left:128px}
+.hs-factors span{font:600 .68rem/1.2 var(--sans);color:var(--accent);background:#e6eef1;border-radius:999px;padding:4px 9px}
+.hs-stats{display:grid;grid-template-columns:1fr 1.4fr;gap:12px;padding-top:8px;border-top:1px solid var(--line);font:.7rem/1.35 var(--sans);color:#5b6a73}
+.hs-stats b{display:block;font:500 1.05rem/1.2 var(--serif);color:var(--ink)}
+@media(max-width:700px){.hs-row{grid-template-columns:108px 1fr}.hs-factors{padding-left:0}.hs-u{height:13px}}
+.hs-stats small{grid-column:1/-1;font:800 .62rem/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:#7a868d;margin-bottom:-6px}
