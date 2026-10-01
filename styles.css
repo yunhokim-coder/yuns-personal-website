@@ -503,3 +503,13 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
   .home-game-play{bottom:12%;padding:9px 18px;font-size:.9rem}
   .home-game-hint{display:none}
 }
+
+/* Home hero, compact: photo stretches to the height of the text beside it. */
+.hero--compact{grid-template-columns:minmax(220px,300px) 1fr;align-items:stretch;gap:48px}
+.hero--compact .portrait-column{display:flex;max-width:300px}
+.hero--compact .portrait{width:100%;max-width:none;height:100%;min-height:320px;object-fit:cover;object-position:center 20%}
+.hero--compact .hero-copy{display:flex;flex-direction:column;justify-content:center}
+.hero--compact h1{font-size:clamp(2.1rem,3.4vw,2.9rem);margin:0 0 26px;letter-spacing:-.01em}
+.hero--compact .meta-grid{margin:0}
+@media(max-width:900px){.hero--compact{grid-template-columns:1fr;gap:26px}.hero--compact .portrait-column{max-width:260px}.hero--compact .portrait{height:auto;min-height:0;object-fit:contain}}
+@media(max-width:640px){.hero--compact .portrait-column{display:block;max-width:200px}}
