@@ -529,3 +529,16 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .hero-sub{display:block;font-size:.86rem;color:#64748b}
 @media(max-width:900px){.hero--rows{grid-template-columns:1fr;gap:26px}.hero--rows .portrait-column{max-width:300px}.hero--rows .portrait{height:auto;min-height:0;object-fit:contain}}
 @media(max-width:560px){.hero-row{grid-template-columns:1fr;gap:6px}}
+
+/* Home game poster: the hero walks back and forth and PLAY blinks, so it reads as a game. */
+.home-game-poster{overflow:hidden}
+.home-game-hero{position:absolute;left:15.417%;top:48.941%;width:9.167%;animation:hg-patrol 8s linear infinite}
+.home-game-hero>span{display:block;animation:hg-face 8s steps(1) infinite}
+.home-game-hero img{display:block;width:100%;height:auto;image-rendering:pixelated;animation:hg-bob .36s steps(2) infinite}
+@keyframes hg-patrol{0%{left:15.417%}20%{left:18%}25%{left:18%}70%{left:3%}75%{left:3%}100%{left:15.417%}}
+@keyframes hg-face{0%{transform:scaleX(1)}22.5%{transform:scaleX(-1)}72.5%{transform:scaleX(1)}}
+@keyframes hg-bob{0%{transform:translateY(0)}100%{transform:translateY(-4%)}}
+.home-game-play{animation:hg-blink 1.1s steps(1) infinite}
+@keyframes hg-blink{0%{opacity:1;box-shadow:0 6px 0 #a3368a,0 0 0 0 rgba(255,106,213,.0)}50%{opacity:.35;box-shadow:0 6px 0 #a3368a,0 0 18px 4px rgba(255,106,213,.55)}}
+.home-game-poster:hover .home-game-play,.home-game-poster:focus-visible .home-game-play{animation:none;opacity:1}
+@media(prefers-reduced-motion:reduce){.home-game-hero,.home-game-hero>span,.home-game-hero img,.home-game-play{animation:none}}
