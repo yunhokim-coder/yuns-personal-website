@@ -665,3 +665,10 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 @media(max-width:800px){.pp-flow{grid-template-columns:1fr 1fr}.pp-flow li:nth-child(2)::after{content:none}.pp-theme-grid{grid-template-columns:1fr}}
 @media(max-width:480px){.pp-flow{grid-template-columns:1fr}.pp-flow li::after{content:none!important}}
 .pp-themes h3{font-size:clamp(1.62rem,2.8vw,2.3rem);margin:10px 0 4px}
+/* Publications: abstract on the card, one click to the full text */
+.pub-abstract{font-size:.93rem;line-height:1.62}
+.pub-abstract-label{display:block;font:800 .68rem/1.3 var(--sans);letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.pub-actions{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.pub-actions .overview-more{margin-top:0}
+.pub-details{font-size:.85rem;color:#6a7880}
+.pub-read{order:2}
