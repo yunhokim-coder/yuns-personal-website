@@ -712,3 +712,21 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .ps-milestone-copy{max-width:760px;margin:0 auto}
 .ps-milestone-photos{max-width:940px;margin:30px auto 0}
 .sop-milestone .ps-milestone-photos{max-width:640px}
+/* Magazine rhythm: lead media at full width above the text column, generous spacing */
+.ps-opening-grid{max-width:none}
+.ps-opening-grid>.ps-photo,.ps-opening-grid>.sop-stats{float:none;width:auto;margin:0 auto 52px}
+.ps-opening-grid>.ps-photo--hero{max-width:820px}
+.ps-opening-grid>.ps-photo--hero img{max-height:640px;object-fit:cover}
+.ps-opening-copy{max-width:760px;margin:0 auto}
+.sop-opening>.sop-stats{position:static;display:grid;grid-template-columns:repeat(4,1fr);max-width:940px}
+.sop-opening>.sop-stats>div{padding:22px 20px 24px}
+.sop-opening>.sop-stats strong{font-size:2.1rem;margin-bottom:10px}
+.sop-opening>.sop-stats span{font-size:.8rem;line-height:1.5}
+.ps-milestone-copy{margin-bottom:0}
+.ps-milestone-photos{margin-top:40px}
+.ps-community-pair>.ps-photo:only-child{max-width:760px;margin:0 auto}
+.ps-community-pair:has(>.ps-photo:only-child){display:block}
+.ps-article .ps-prose p,.ps-article .ps-opening-copy p{margin-bottom:1.75em}
+@media(max-width:820px){.sop-opening>.sop-stats{grid-template-columns:1fr 1fr}.ps-opening-grid>.ps-photo,.ps-opening-grid>.sop-stats{margin-bottom:34px}}
+@media(max-width:480px){.sop-opening>.sop-stats{grid-template-columns:1fr}}
+.ps-opening-grid>.ps-photo--hero{max-width:760px}.ps-opening-grid>.ps-photo--hero img{max-height:none;object-fit:contain}
