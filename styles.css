@@ -730,3 +730,29 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 @media(max-width:820px){.sop-opening>.sop-stats{grid-template-columns:1fr 1fr}.ps-opening-grid>.ps-photo,.ps-opening-grid>.sop-stats{margin-bottom:34px}}
 @media(max-width:480px){.sop-opening>.sop-stats{grid-template-columns:1fr}}
 .ps-opening-grid>.ps-photo--hero{max-width:760px}.ps-opening-grid>.ps-photo--hero img{max-height:none;object-fit:contain}
+/* ===== PS: magazine feature, one column, two image sizes ===== */
+.ps2{--col:680px;--wide:900px;max-width:var(--wide);margin:0 auto;padding-bottom:40px}
+.ps2 .ps-head{max-width:var(--col);margin:0 auto 44px;padding-bottom:26px;border-bottom:1px solid var(--line)}
+.ps2-text{max-width:var(--col);margin:0 auto;font:400 1.2rem/1.85 var(--serif);color:#1f2a32}
+.ps2-text p{margin:0 0 1.5em}
+.ps2-lede{font-size:1.42rem;line-height:1.6;color:#141d24}
+.ps2-quote{margin:2.1em 0 2.2em!important;padding:4px 0 4px 26px;border-left:3px solid var(--accent2);font:italic 1.7rem/1.45 var(--serif);color:#26495c}
+.ps2-fig{max-width:var(--col);margin:8px auto 56px}
+.ps2-lead{margin:0 auto 48px}
+.ps2 figure{margin-left:auto;margin-right:auto}
+.ps2 figure img{display:block;width:100%;height:auto;border-radius:2px}
+.ps2 figcaption{font:.8rem/1.5 var(--sans);color:#6b7880;margin-top:10px}
+.ps2-row{display:flex;gap:14px;max-width:var(--wide);margin:12px auto 60px;align-items:flex-start}
+.ps2-row>figure{flex:var(--ar) 1 0;min-width:0;margin:0}
+.ps2-row>figure img{aspect-ratio:var(--ar);object-fit:cover}
+.ps2-break{display:flex;align-items:center;gap:18px;max-width:var(--col);margin:72px auto 34px;font:700 .74rem var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.ps2-break::after{content:"";flex:1;height:1px;background:var(--line)}
+@media(max-width:760px){.ps2-text{font-size:1.08rem;line-height:1.8}.ps2-lede{font-size:1.22rem}.ps2-quote{font-size:1.36rem;padding-left:18px}.ps2-row{flex-direction:column;gap:22px}.ps2-row>figure{flex:none;width:100%}.ps2-fig,.ps2-row{margin-bottom:44px}.ps2-break{margin-top:54px}}
+@media(max-width:760px){
+ .ps2-row{display:grid;grid-template-columns:1fr 1fr;gap:16px 12px}
+ .ps2-row>figure{grid-column:span 2;width:auto}
+ .ps2-row>figure.ps2-tall{grid-column:span 1}
+ .ps2-row>figure.ps2-tall img{aspect-ratio:3/4}
+ .ps2-row>figure:not(.ps2-tall)+figure.ps2-tall:last-child{grid-column:span 2;width:70%;justify-self:center}
+ .ps2-row>figure:not(.ps2-tall)+figure.ps2-tall:last-child img{aspect-ratio:var(--ar)}
+}
