@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Personal Statement | Yunho Kim</title><meta name="description" content="Academic website of Yunho Kim: school mental health, MTSS, motivation and behavior change, youth mental health, and coaching psychology."><link rel="stylesheet" href="styles.css?v=col-20261003"><meta property="og:type" content="website"><meta property="og:site_name" content="Yunho Kim"><meta property="og:title" content="Personal Statement | Yunho Kim"><meta property="og:description" content="Academic website of Yunho Kim: school mental health, MTSS, motivation and behavior change, youth mental health, and coaching psychology."><meta property="og:url" content="https://yunhokim-coder.github.io/yuns-personal-website/ps.html"><meta property="og:image" content="https://yunhokim-coder.github.io/yuns-personal-website/og-profile.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Portrait of Yunho Kim"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://yunhokim-coder.github.io/yuns-personal-website/og-profile.jpg"><style>
-/* A single reading column, with photographs placed in the story. */
+/* A reading column with portrait photographs beside the relevant prose. */
 body.ps-page{background:#fff;color:#253039}
 .ps-page .site-header{background:rgba(255,255,255,.97);border-color:#e4e7e8}
 .ps-page main{max-width:none;margin:0;padding:48px 24px 80px}
@@ -9,12 +9,17 @@ body.ps-page{background:#fff;color:#253039}
 .ps-column .column-byline{font:400 .875rem/1.5 var(--sans);color:#64727b}
 .ps-column p{margin:0 0 1.25em;text-align:left}
 .ps-column .column-lede{font-size:1.25rem;line-height:1.75;color:#17232b}
-.ps-column h2{font:500 1.65rem/1.3 Georgia,"Times New Roman",serif;letter-spacing:-.015em;color:#17232b;margin:46px 0 20px}
+.ps-column h2{font:500 1.65rem/1.3 Georgia,"Times New Roman",serif;letter-spacing:-.015em;color:#17232b;margin:46px 0 20px;clear:both}
 .ps-column .column-photo{width:500px;max-width:100%;margin:30px auto 34px}
 .ps-column .column-photo img{display:block;width:100%;height:auto;max-width:100%;border-radius:0;box-shadow:none}
 .ps-column .column-photo figcaption{font:400 .8125rem/1.6 var(--sans);color:#65727b;margin:10px 0 0;text-align:left}
-.ps-column .column-photo--music{width:300px}
-.ps-column .column-photo--speaking{width:360px}
+.ps-column .column-passage{display:flow-root;margin:0 0 30px}
+.ps-column .column-passage p:last-child{margin-bottom:0}
+.ps-column .column-photo--aside{float:right;width:240px;margin:3px 0 16px 28px}
+.ps-column .column-passage--sharing{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:28px;align-items:center;margin-top:32px}
+.ps-column .column-passage--sharing .column-photo--aside{float:none;width:100%;margin:0;grid-column:2;grid-row:1}
+.ps-column .column-passage--sharing>p{margin:0;grid-column:1;grid-row:1}
+.ps-column .column-highlight{font:italic 1.4375rem/1.6 Georgia,"Times New Roman",serif;color:#265b73;border-left:2px solid #86a6b5;padding:2px 0 2px 20px;margin:34px 0 38px}
 .ps-column .column-photo--closing{margin-top:30px;margin-bottom:0}
 .ps-page footer{border-color:#e1e6e8}
 @media(max-width:700px){
@@ -25,7 +30,17 @@ body.ps-page{background:#fff;color:#253039}
  .ps-column .column-lede{font-size:1.1875rem;line-height:1.75}
  .ps-column h2{font-size:1.5rem;margin-top:38px;margin-bottom:18px}
  .ps-column .column-photo{margin-top:26px;margin-bottom:30px}
+ .ps-column .column-photo--aside{width:36%;margin:3px 0 14px 24px}
+ .ps-column .column-passage--sharing{grid-template-columns:minmax(0,1fr) 36%;gap:24px}
+ .ps-column .column-passage--sharing .column-photo--aside{width:100%;margin:0}
+ .ps-column .column-highlight{font-size:1.3125rem;padding-left:18px}
  .ps-column .column-photo--closing{margin-bottom:0}
+}
+@media(max-width:520px){
+ .ps-column .column-photo--aside{width:38%;margin-left:18px}
+ .ps-column .column-passage--sharing{display:flow-root}
+ .ps-column .column-passage--sharing .column-photo--aside{float:right;width:38%;margin:3px 0 14px 18px}
+ .ps-column .column-photo figcaption{font-size:.75rem;line-height:1.5}
 }
 @media(max-width:380px){
  .ps-page main{padding-left:18px;padding-right:18px}
@@ -57,21 +72,37 @@ body.ps-page{background:#fff;color:#253039}
 <p>Although she didn’t get the job, my mother, who is petrified at the sight of cockroaches and even the tiniest insects, conjured up the courage to do so because she was desperate. She was a single mom who desperately needed a job that paid $25 more per day than working at a café.</p>
 <p>As such, her life to this day wasn’t easy. Until she built a career for herself after graduating, she had no college diploma when she had to raise me singlehandedly. Thus, the list of all the odd 3D (Dirty, Dangerous and Demeaning) jobs doesn’t fit on one page, including selling honey door-to-door.</p>
 <p>She took on all these difficult jobs for ME - her precious only child. But more than anything, she worked so hard because she wanted me to have the opportunities she never had. Dance, for instance, was her dream, and I have absolutely no doubt in my mind that she would have made a fine career dancer if given a chance – but she didn’t get that chance. With a sick bedridden father, blind and paralyzed from the waist down for life, and a mother who brought home bare minimum wage as a caretaker, my mother was accepted into a good university but couldn’t attend.</p>
+<figure class="column-photo">
+ <img src="ps-childhood-microphone.jpg" alt="Yunho Kim as a toddler, lying on the floor with a microphone" width="1800" height="1252" loading="lazy">
+ <figcaption>Me, in my early childhood.</figcaption>
+</figure>
 <p>But quitter, she is not. Later, once I was old enough to take care of myself, she applied and made it to a university, graduating at 37 and later earning a PhD in Psychology (Counseling) at 45. She even went as far as earning yet another PhD in Philosophy only five years ago, two years short of turning 50.</p>
-<p>Yes, my mother is a superwoman. But also, an amazing mom. My role model.</p>
+<figure class="column-photo">
+ <img src="ps-counseling-center.jpg" alt="The entrance and hallway of Yunho Kim's mother's counseling center" width="1179" height="861" loading="lazy">
+ <figcaption>My mother's counseling center.</figcaption>
+</figure>
+<p class="column-highlight">Yes, my mother is a superwoman. But also, an amazing mom. My role model.</p>
 <h2>Legacy</h2>
-<p>And my teacher as well. She showed me that you don’t need to give up a dream but just push it back a bit as she did; she double majored in dance. Even today after a hard day’s work, she dances at the dance studio at our center. Just like her, I never gave up on a love of mine – music. Although I always knew I wouldn’t make it big, still I formed my own band with four members, and we are jamming together at different venues (I am the first guitarist and vocalist).</p>
-<figure class="column-photo column-photo--music">
+<div class="column-passage column-passage--music">
+ <figure class="column-photo column-photo--aside">
  <img src="ps-music-portrait.jpg" alt="Yunho Kim standing with his electric guitar" width="1200" height="1800" loading="lazy">
  <figcaption>Music, a dream I kept alongside my studies.</figcaption>
 </figure>
-<p>Also, she shares. She has counseled more than tens of thousands, working very closely with governments and schools to make counseling affordable and more accessible.</p>
-<figure class="column-photo column-photo--speaking">
+ <p>And my teacher as well. She showed me that you don’t need to give up a dream but just push it back a bit as she did; she double majored in dance. Even today after a hard day’s work, she dances at the dance studio at our center. Just like her, I never gave up on a love of mine – music. Although I always knew I wouldn’t make it big, still I formed my own band with four members, and we are jamming together at different venues (I am the first guitarist and vocalist).</p>
+</div>
+<div class="column-passage column-passage--sharing">
+ <figure class="column-photo column-photo--aside">
  <img src="ps-mother-educator.jpg" alt="Yunho Kim's mother speaking at an education program" width="1179" height="1412" loading="lazy">
  <figcaption>My mother speaking at an education program.</figcaption>
 </figure>
+ <p>Also, she shares. She has counseled more than tens of thousands, working very closely with governments and schools to make counseling affordable and more accessible.</p>
+</div>
 <h2>Purpose</h2>
 <p>Now it is my turn, and with a mother like her who sets the bar high, I cannot settle for less. I work mostly with struggling teenagers from disadvantaged families, labeled as underperformers in schools – because I was one of them.</p>
+<figure class="column-photo">
+ <img src="ps-dream-school.jpg" alt="Students, families, and educators gathered at a Mindset Dream School entrance ceremony" width="1179" height="648" loading="lazy">
+ <figcaption>A Mindset Dream School entrance ceremony.</figcaption>
+</figure>
 <p>In fact, my mother told me that she went into psychology because of me because she wanted to <em>understand</em> me: I do admit that I was a difficult child and later a rebellious teenager. Now that I think about it, the loss of a father must have been hard while other curve balls in life—like having to live with my grandparents for years while my mother struggled to make a living and seeing my high school, a well-intentioned charter school that I enjoyed very much, shut its doors—left me puzzled.</p>
 <p>Thus, I wasn’t exactly an A student. By no means did I lose interest - I was simply lost for years.</p>
 <p>But I had a good support system; besides my mom, I was blessed because I had good teachers. Teachers who even went out of their way to help me with my tuition back in the charter school.</p>
