@@ -804,3 +804,8 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .poom-bars b{color:#29434d}
 @media(max-width:850px){.hp-top,.hp-bottom{grid-template-columns:1fr}.hp-top .poom-outcome-row{grid-template-columns:1fr;gap:8px}.hp-top .poom-outcome-key{margin-left:0}}
 @media(max-width:560px){.hp-bottom .poom-grade-chart{grid-template-columns:1fr}.hp-81 strong{font-size:4.2rem}.hp-bottom .poom-bars>div{grid-template-columns:100px 1fr}}
+/* Home Poom feature: title above, description below the charts */
+.home-poom .home-game-head{align-items:center;margin-bottom:18px}
+.home-poom .home-game-head h2{margin:0}
+.hp-desc{max-width:860px;margin:22px 0 0}
+.hp-desc p{color:#46545e;margin:0 0 10px}
