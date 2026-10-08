@@ -809,3 +809,4 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .home-poom .home-game-head h2{margin:0}
 .hp-desc{max-width:860px;margin:22px 0 0}
 .hp-desc p{color:#46545e;margin:0 0 10px}
+.hero-major{display:block;margin-top:2px;font-size:inherit;color:inherit}
