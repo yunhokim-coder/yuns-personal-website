@@ -16,3 +16,27 @@
 /* Home: one combined four-panel results figure. */
 .pf-home-figure{display:block;background:#fffdfa;border:1px solid var(--line);border-radius:8px;padding:10px;transition:border-color .2s ease}.pf-home-figure:hover{border-color:var(--accent)}.pf-home-figure img{display:block;width:100%;height:auto}
 @media(max-width:700px){.pf-home-figure{overflow-x:auto}.pf-home-figure img{min-width:640px}}
+
+/* Research: Poom evaluation as a column (pfc-). */
+.pfc-fix{max-width:680px;margin:0 auto 46px;padding:16px 20px;background:#f3f1ea;border-radius:6px}
+.pfc-fix strong{display:block;font:800 .72rem/1.4 var(--sans);letter-spacing:.11em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.pfc-fix .home-game-facts{margin:0}
+.pfc-split{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(26px,4vw,52px);align-items:center;max-width:1040px;margin:0 auto 54px;scroll-margin-top:100px}
+.pfc-split .gf-body{margin:0}.pfc-split--rev .gf-body{order:2}
+.pfc-big{font:500 clamp(2.3rem,4vw,3.1rem)/1.05 var(--serif);color:var(--ink);margin:6px 0 14px;letter-spacing:-.02em}.pfc-big em{font-style:normal;color:#4f7a78}
+.pfc-chart{margin:0;background:#fffdfa;border:1px solid var(--line);border-radius:8px;padding:12px}
+.pfc-chart img{display:block;width:100%;height:auto}
+.pfc-chart figcaption{font:.8rem/1.5 var(--sans);color:#657784;margin:8px 4px 0}
+.pfc-pair{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:1040px;margin:0 auto 54px}
+.pfc-pair>section{scroll-margin-top:100px}.pfc-pair h3{font-size:clamp(1.35rem,2.2vw,1.75rem);margin:6px 0 8px}.pfc-pair p{font:1rem/1.65 var(--serif);color:#34434c;margin:0 0 14px}
+.pfc-two{max-width:860px;margin:0 auto 54px;display:grid;grid-template-columns:1fr auto 1fr;align-items:stretch;gap:14px}
+.pfc-two>div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:20px 22px}
+.pfc-two small{display:block;font:800 .72rem/1.4 var(--sans);letter-spacing:.11em;text-transform:uppercase;color:#6b777e;margin-bottom:6px}
+.pfc-two strong{display:block;font:500 2.3rem/1.1 var(--serif);color:var(--ink)}.pfc-two span{font:.92rem/1.5 var(--sans);color:#56656d}
+.pfc-two>b{align-self:center;font:italic 1.1rem var(--serif);color:#8a959b}
+.pfc-two .pfc-two-cap{grid-column:1/-1;background:none;border:0;padding:0;text-align:center;font:.92rem/1.55 var(--sans);color:#56656d}
+.pfc-next{list-style:none;counter-reset:n;max-width:860px;margin:0 auto 50px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pfc-next li{counter-increment:n;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px 15px 56px;position:relative;font:.92rem/1.5 var(--sans);color:#4a5860}
+.pfc-next li:before{content:counter(n,decimal-leading-zero);position:absolute;left:18px;top:15px;font:700 1rem var(--serif);color:var(--accent)}
+.pfc-next strong{display:block;font:700 1rem/1.35 var(--serif);color:var(--ink);margin-bottom:3px}
+@media(max-width:820px){.pfc-split,.pfc-pair,.pfc-next{grid-template-columns:1fr}.pfc-split--rev .gf-body{order:0}.pfc-two{grid-template-columns:1fr}.pfc-two>b{justify-self:center}}
