@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="t d">
 <title id="t">Doctoral research model</title>
-<desc id="d">Tier 2 coaching delivered by teachers is expected to improve academic motivation and well-being among students facing financial and cultural barriers. Family–school–community supports and culturally tailored components are tested as factors that strengthen this effect (RQ2); supports are also tested as a direct route to sustained motivation (RQ1).</desc>
+<desc id="d">Tier 2 coaching is expected to improve academic motivation and well-being among students facing financial and cultural barriers. Family–school–community supports and culturally tailored components are tested as factors that strengthen this effect (RQ2); supports are also tested as a direct route to sustained motivation (RQ1).</desc>
 <defs>
 <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#265b73"/></marker>
 <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8a7a55"/></marker>
@@ -24,8 +24,7 @@
 <text class="s" x="525" y="66" text-anchor="middle">home, school, and local services together</text>
 <!-- main path -->
 <rect class="key" x="20" y="226" width="230" height="84" rx="6"/>
-<text class="hw" x="135" y="262" text-anchor="middle">Tier 2 coaching</text>
-<text class="sw" x="135" y="282" text-anchor="middle">delivered by teachers</text>
+<text class="hw" x="135" y="273" text-anchor="middle">Tier 2 coaching</text>
 <rect class="box" x="430" y="226" width="230" height="84" rx="6" style="stroke:#265b73;stroke-width:1.6"/>
 <text class="h" x="545" y="262" text-anchor="middle">Academic motivation</text>
 <text class="h" x="545" y="281" text-anchor="middle">&amp; well-being</text>
