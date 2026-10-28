@@ -846,3 +846,4 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .ps2-stats--wide3{grid-template-columns:repeat(3,1fr)}
 .ps2-rq{margin:0 0 1.5em;padding-left:1.4em}.ps2-rq li{margin-bottom:.7em;padding-left:.2em}
 @media(max-width:760px){.ps2-stats--wide3{grid-template-columns:1fr}}
+.ps2-rq-model{margin:8px 0 1.8em}.ps2-rq-model img{display:block;width:100%;height:auto}.ps2-rq-model figcaption{font:.78rem/1.5 var(--sans);color:var(--muted);margin-top:8px}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" role="img" aria-labelledby="t d">
+<title id="t">Doctoral research model</title>
+<desc id="d">Tier 2 coaching delivered by teachers is expected to improve academic motivation and well-being among students facing financial and cultural barriers. Family–school–community supports and culturally tailored components are tested as factors that strengthen this effect (RQ2); supports are also tested as a direct route to sustained motivation (RQ1).</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#265b73"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8a7a55"/></marker>
+</defs>
+<style>
+.box{fill:#fffdfa;stroke:#ddd8cc;stroke-width:1.2}
+.key{fill:#265b73}
+.h{font:600 14px Inter,system-ui,sans-serif;fill:#1f2933}
+.hw{font:600 14px Inter,system-ui,sans-serif;fill:#fff}
+.s{font:400 11.5px Inter,system-ui,sans-serif;fill:#64748b}
+.sw{font:400 11.5px Inter,system-ui,sans-serif;fill:#d6e4ea}
+.tag{font:700 10.5px Inter,system-ui,sans-serif;letter-spacing:.08em;fill:#265b73}
+.tagg{font:700 10.5px Inter,system-ui,sans-serif;letter-spacing:.08em;fill:#8a7a55}
+</style>
+<!-- moderators -->
+<rect class="box" x="20" y="16" width="250" height="74" rx="6"/>
+<text class="h" x="145" y="46" text-anchor="middle">Culturally tailored components</text>
+<text class="s" x="145" y="66" text-anchor="middle">identified with each community</text>
+<rect class="box" x="390" y="16" width="270" height="74" rx="6"/>
+<text class="h" x="525" y="46" text-anchor="middle">Family–school–community supports</text>
+<text class="s" x="525" y="66" text-anchor="middle">home, school, and local services together</text>
+<!-- main path -->
+<rect class="key" x="20" y="226" width="230" height="84" rx="6"/>
+<text class="hw" x="135" y="262" text-anchor="middle">Tier 2 coaching</text>
+<text class="sw" x="135" y="282" text-anchor="middle">delivered by teachers</text>
+<rect class="box" x="430" y="226" width="230" height="84" rx="6" style="stroke:#265b73;stroke-width:1.6"/>
+<text class="h" x="545" y="262" text-anchor="middle">Academic motivation</text>
+<text class="h" x="545" y="281" text-anchor="middle">&amp; well-being</text>
+<line x1="250" y1="268" x2="426" y2="268" stroke="#265b73" stroke-width="2.4" marker-end="url(#a)"/>
+<circle cx="340" cy="268" r="4.5" fill="#265b73"/>
+<!-- RQ2 moderation arrows -->
+<path d="M145 90 C145 170 300 200 334 260" fill="none" stroke="#8a7a55" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#g)"/>
+<path d="M480 90 C480 170 380 200 346 260" fill="none" stroke="#8a7a55" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#g)"/>
+<text class="tagg" x="340" y="160" text-anchor="middle">RQ2</text>
+<text class="s" x="340" y="176" text-anchor="middle">strengthen the effect</text>
+<text class="s" x="340" y="190" text-anchor="middle">of coaching?</text>
+<!-- RQ1 direct -->
+<line x1="610" y1="90" x2="610" y2="222" stroke="#265b73" stroke-width="1.6" marker-end="url(#a)"/>
+<text class="tag" x="602" y="148" text-anchor="end">RQ1</text>
+<text class="s" x="602" y="164" text-anchor="end">sustain motivation</text>
+<text class="s" x="602" y="178" text-anchor="end">directly?</text>
+<!-- population -->
+<path d="M20 340 V350 H660 V340" fill="none" stroke="#ddd8cc" stroke-width="1.2"/>
+<text class="tag" x="340" y="376" text-anchor="middle">STUDENTS FACING FINANCIAL AND CULTURAL BARRIERS</text>
+</svg>
