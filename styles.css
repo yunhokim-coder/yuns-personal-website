@@ -842,3 +842,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .ssd-value--ours{background:#fdf4ee;border-color:#efcfba;border-top-color:#d6602f}
 .ssd-value--ours em{display:block;font-style:normal;font:700 .7rem/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:#b5531f;margin-top:8px}
 @media(max-width:760px){.ssd-platform{padding:20px 16px}.ssd-row{grid-template-columns:1fr;gap:4px}.ssd-arrows{flex-direction:row;justify-content:center;padding:6px 0}.ssd-arrows i{width:2px;height:22px}.ssd-arrows i:after{display:none}.ssd-values{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* SOP: three-figure lead strip and research-question list */
+.ps2-stats--wide3{grid-template-columns:repeat(3,1fr)}
+.ps2-rq{margin:0 0 1.5em;padding-left:1.4em}.ps2-rq li{margin-bottom:.7em;padding-left:.2em}
+@media(max-width:760px){.ps2-stats--wide3{grid-template-columns:1fr}}
