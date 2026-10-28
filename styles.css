@@ -848,3 +848,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 @media(max-width:760px){.ps2-stats--wide3{grid-template-columns:1fr}}
 .ps2-rq-model{margin:8px 0 1.8em}.ps2-rq-model img{display:block;width:100%;height:auto}.ps2-rq-model figcaption{font:.78rem/1.5 var(--sans);color:var(--muted);margin-top:8px}
 .ps2-lead-chart{max-width:var(--wide);margin:0 auto 56px}.ps2-lead-chart img{display:block;width:100%;height:auto}.ps2-lead-chart figcaption{font:.75rem/1.5 var(--sans);color:var(--muted);margin-top:8px}
+/* Presentations: keep each post's lead photo at a comfortable reading size */
+.pres-lead{max-width:640px}
+.pres-lead img{aspect-ratio:16/10;object-fit:cover}
+.pres-lead--ntnu img{object-position:center 72%}
