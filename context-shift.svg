@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" role="img" aria-labelledby="t2 d2">
+<title id="t2">From an individual view of grit to grit in context</title>
+<desc id="d2">Left: what I first assumed, a straight line from coaching to motivation to grit. Right: what I saw in the field, a student surrounded by peer-group norms, family resources (39% of multicultural-family parents work in 3D jobs, vs. 13% overall), and the community, which shape whether motivation and grit can be sustained.</desc>
+<defs>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9aa5b1"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#265b73"/></marker>
+</defs>
+<style>
+.tag{font:700 10.5px Inter,system-ui,sans-serif;letter-spacing:.08em}
+.h{font:600 13.5px Inter,system-ui,sans-serif}
+.s{font:400 11px Inter,system-ui,sans-serif;fill:#64748b}
+.q{font:italic 400 13px Georgia,serif;fill:#64748b}
+</style>
+<!-- LEFT: assumption -->
+<text class="tag" x="130" y="26" text-anchor="middle" fill="#8a96a3">WHAT I FIRST ASSUMED</text>
+<g fill="#fffdfa" stroke="#cfd5db" stroke-width="1.2">
+<rect x="45" y="62" width="170" height="54" rx="6"/>
+<rect x="45" y="168" width="170" height="54" rx="6"/>
+<rect x="45" y="274" width="170" height="54" rx="6"/>
+</g>
+<g class="h" fill="#6b7785" text-anchor="middle">
+<text x="130" y="94">Coaching</text><text x="130" y="200">Motivation</text><text x="130" y="306">Grit</text>
+</g>
+<line x1="130" y1="116" x2="130" y2="163" stroke="#9aa5b1" stroke-width="1.8" marker-end="url(#m1)"/>
+<line x1="130" y1="222" x2="130" y2="269" stroke="#9aa5b1" stroke-width="1.8" marker-end="url(#m1)"/>
+<text class="q" x="130" y="362" text-anchor="middle">“Grit would</text>
+<text class="q" x="130" y="380" text-anchor="middle">naturally follow.”</text>
+<!-- divider arrow -->
+<line x1="250" y1="215" x2="296" y2="215" stroke="#265b73" stroke-width="2.2" marker-end="url(#m2)"/>
+<!-- RIGHT: context -->
+<text class="tag" x="490" y="26" text-anchor="middle" fill="#265b73">WHAT I SAW IN THE FIELD</text>
+<circle cx="490" cy="230" r="182" fill="#e7eef1"/>
+<circle cx="490" cy="230" r="134" fill="#d3e1e7"/>
+<circle cx="490" cy="230" r="88" fill="#bcd2db"/>
+<circle cx="490" cy="230" r="46" fill="#265b73"/>
+<text class="h" x="490" y="226" text-anchor="middle" fill="#fff">Student</text>
+<text x="490" y="243" text-anchor="middle" style="font:400 10.5px Inter,system-ui,sans-serif" fill="#d6e4ea">motivation · grit</text>
+<g text-anchor="middle">
+<text class="h" x="490" y="164" fill="#1f2933">Peer-group norms</text>
+<text class="s" x="490" y="178">effort can mean exclusion</text>
+<text class="h" x="490" y="112" fill="#1f2933">Family resources</text>
+<text class="s" x="490" y="125">39% of multicultural-family</text>
+<text class="s" x="490" y="138">parents in 3D jobs (vs. 13%)</text>
+<text class="h" x="490" y="68" fill="#1f2933">Community</text>
+<text class="s" x="490" y="82">services, schools, attitudes</text>
+</g>
+<text class="s" x="490" y="428" text-anchor="middle" style="font-style:italic">Sustained grit depends on every ring.</text>
+</svg>
