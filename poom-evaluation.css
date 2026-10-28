@@ -56,3 +56,20 @@
 .pfp-partners strong{display:block;font:700 1rem/1.35 var(--serif);color:var(--ink);margin-bottom:6px}
 .pfp-partners span{font:.88rem/1.55 var(--sans);color:#4a5860}
 @media(max-width:860px){.pfp-flow{grid-template-columns:1fr}.pfp-arrow{transform:rotate(90deg)}.pfp-partners{grid-template-columns:1fr}}
+
+/* Projects: Poom Family compact pathway figure and network example. */
+.pf-project-visual .pf-visual--compact{max-width:820px}
+.pf-project-visual .pf-visual--compact figure{padding:16px 18px 12px}
+.pf-project-visual .pf-visual--compact .pf-plot img{min-width:0}
+.pf-net-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:18px;margin:18px 0 18px}
+.pf-net-sheet{background:#fff;border:1px dashed #b9c3c6;border-radius:6px;padding:16px 18px}
+.pf-net-sheet strong{display:block;font:800 .72rem/1.4 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.pf-net-sheet dl{margin:0}.pf-net-sheet dl div{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:7px 0;border-top:1px solid #edeae3}
+.pf-net-sheet dt{font:700 .86rem/1.4 var(--sans);color:#34434c}.pf-net-sheet dd{margin:0;font:.88rem/1.4 var(--sans);color:#56656d;font-style:italic}
+.pf-net-sheet>span{display:block;margin-top:10px;font:.8rem/1.4 var(--sans);color:#7a868c}
+.pf-net-uses{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.pf-net-uses li{background:var(--card);border:1px solid var(--line);border-left:3px solid #766080;padding:11px 14px;font:.9rem/1.5 var(--sans);color:#4a5860}
+.pf-net-uses b{display:block;font:700 .95rem/1.35 var(--serif);color:var(--ink)}
+.pf-net-fig{margin:0 0 14px;background:#fffdfa;border:1px solid var(--line);border-radius:8px;padding:10px}
+.pf-net-fig img{display:block;width:100%;height:auto}.pf-net-fig figcaption{font:.78rem/1.5 var(--sans);color:#657784;margin:6px 4px 0}
+@media(max-width:760px){.pf-net-grid{grid-template-columns:1fr}.pf-net-fig{overflow-x:auto}.pf-net-fig img{min-width:620px}}
