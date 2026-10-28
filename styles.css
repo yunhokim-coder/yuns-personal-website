@@ -852,3 +852,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 .pres-lead{max-width:720px;margin-left:auto!important;margin-right:auto!important}.pres-lead figcaption{text-align:center}
 .pres-lead img{aspect-ratio:16/10;object-fit:cover}
 .pres-lead--ntnu img{object-position:center 72%}
+/* Presentations: center each post's header to sit over its centered lead photo */
+#academic-exchange>.eyebrow,#academic-exchange>h2,#academic-exchange>.gf-deck,#academic-exchange>.gf-byline,
+#winter-conference>.eyebrow,#winter-conference>h2,#winter-conference>.conference-deck{text-align:center;margin-left:auto;margin-right:auto}
+#academic-exchange>.gf-byline{max-width:720px}
