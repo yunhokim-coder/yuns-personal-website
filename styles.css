@@ -856,3 +856,12 @@ footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
 #academic-exchange>.eyebrow,#academic-exchange>h2,#academic-exchange>.gf-deck,#academic-exchange>.gf-byline,
 #winter-conference>.eyebrow,#winter-conference>h2,#winter-conference>.conference-deck{text-align:center;margin-left:auto;margin-right:auto}
 #academic-exchange>.gf-byline{max-width:720px}
+/* NEXT LINE: the six stops at a glance, each with one key idea */
+.nl-stops{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 12px}
+.nl-stops li{margin:0;display:flex;flex-direction:column;min-width:0}
+.nl-stops img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid #2a2850;background:#0b1030;margin-bottom:7px}
+.nl-stop{font:600 .68rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#2a8f83}
+.nl-stops strong{font:700 .92rem/1.35 var(--sans);color:#17212a;margin-top:2px}
+.nl-sub{font:.8rem/1.4 var(--sans);color:#52616a}
+.nl-stops li:last-child .nl-stop{color:#b07d10}
+@media(max-width:600px){.nl-stops{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 10px}}
